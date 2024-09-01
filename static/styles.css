@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    max-width: 150px;
+    transition: transform 0.3s;
+}
+
+header:hover #logo {
+    transform: scale(1.1);
+}
+
+.content-wrapper {
+
+    padding: 120px 20px 20px; /* Adjusted padding for header */
+}
+
+/* Section Styles */
+.content-section {
+    background: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #e0e0e0;
+}
+
+p {
+    color: #d1d1d1;
+}
+#introduction{
+    padding-top: 120px;
+    text-align: center;
+}
+#roadmap {
+    background: #2c2c2c;
+}
+
+.roadmap-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap-step {
+    background: #3a3a3a;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.roadmap-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.roadmap-icon {
+    font-size: 24px;
+    color: #9c27b0;
+}
+
+.roadmap-content h3 {
+    color: #9c27b0;
+}
+
+.roadmap-content {
+    padding-left: 10px;
+}
+
+/* Features Section Styles */
+#features {
+    background: #2c2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out;
+    
+}
+.features-content h2{
+    color:  #9c27b0;
+}
+
+#features p {
+    color: #d1d1d1;
+}
+
+/* Engage with the Community Section */
+#engage {
+    background: #2c2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out;
+    text-align: center;
+}
+
+#engage p {
+    color: #d1d1d1;
+}
+
+.x-link {
+    color: #9c27b0;
+    text-decoration: none;
+}
+
+.x-link:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.status-message {
+    color: #76ff03;
+    margin-top: 10px;
+}

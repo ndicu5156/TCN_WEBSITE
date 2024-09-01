@@ -1,8 +1,8 @@
 {
   "canisters": {
-    "tori_coin_backend": {
-      "main": "src/tori_coin_backend/main.mo",
-      "type": "motoko"
+    "tori_coin": {
+      "type": "assets",
+      "source": ["static"]
     }
   },
   "defaults": {
